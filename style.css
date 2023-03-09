@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+overflow-x: hidden;
+}
+.container{
+    max-width: 80vw;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 10px;
+    font-size: large;
+}
+.navbar{
+    display: flex;
+    height: 60px;
+    margin-top: 5px;
+    
+}
+.topleft{
+    width: 50%;
+    padding: 12px;
+}
+.topright{
+    
+    width: 50%;
+}
+.topright img{
+    width: 100%;
+    height:90%
+}
+.logo{
+    font-size: 1.8rem;
+}
+.dumbull{
+    width: 20%;
+    margin: 10px auto;
+}
+.topleft h1{
+    font-size: 2rem;
+}
+.section2 p{
+    padding-left: 60px;
+    padding-right: 60px;
+    margin: 15px 0px;
+}
+.box{
+    width: 30%;
+    margin: 1%;
+    border: 2px solid;
+    padding: 0px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+}
+.section2 ul li {
+     list-style: none;
+     margin: 4px;
+}
+.btn2{
+    padding:6px 30px;
+    text-align: center;
+    margin: 8px;
+    font-weight: bold;
+    background-color: rgba(103, 144, 240, 0.762);
+    border-radius: 6px;
+    cursor: pointer;
+}
+.box h2{
+    padding: 8px 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: rgb(58, 124, 238);
+    color: aliceblue;
+}
+.table-contain{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+.section3 table{
+    width: 85%;
+}
+.section3 h2{
+    padding: 15px;
+}
